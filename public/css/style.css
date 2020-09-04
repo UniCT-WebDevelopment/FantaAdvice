@@ -1,0 +1,90 @@
+html,
+body {
+    background: url("https://www.calcioefinanza.it/wp-content/uploads/2015/06/uefa-finali-2017.jpg");
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.top-left {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content>p {
+    font-size: 1.50em;
+    margin-top: -1em;
+    line-height: 1.5em;
+}
+
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+}
+
+.links>a {
+    color: #ffffff;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.button {
+    appearance: none;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 23px;
+    height: 2.85em;
+    line-height: 2.8em;
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
